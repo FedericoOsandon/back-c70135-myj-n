@@ -1,0 +1,18 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "first_name": "Federico",
+    "last_name": "Osandón",
+    "email": "f@gmail.com",
+    "password": "12346"
+}
+###
+POST http://localhost:3000/users/1234?nombre=fede&apellido=Osandón
+Content-Type: application/json
+
+{
+    "propiedad": "valor",
+    "campo": "valor2"
+}
+
